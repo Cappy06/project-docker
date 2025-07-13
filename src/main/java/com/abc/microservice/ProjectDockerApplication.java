@@ -20,5 +20,9 @@ public class ProjectDockerApplication {
     public String health() {
         return "<h1> HEALTH </h1>";
     }
+    @GetMapping("/greetings")
+    public String greetings() {
+        return "<h1> Hello, there! </h1>";
+    }
     
 }
