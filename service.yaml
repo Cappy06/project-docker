@@ -4,7 +4,7 @@ metadata:
   name: project-docker-svc
 spec:
   selector:
-    app: project-docker-svc
+    app: project-docker-depl
   ports:
     - protocol: TCP
       port: 80

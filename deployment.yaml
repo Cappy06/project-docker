@@ -21,4 +21,4 @@ spec:
         - name: project-docker-depl
           image: shivam060200/project-docker:latest
           ports:
-            - containerPort: 8086
+            - containerPort: 8080
