@@ -46,4 +46,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: shivam060200/project-docker:$(date +%s)
+          tags: |
+            shivam060200/project-docker:latest
+            shivam060200/project-docker:${{ github.run_number }}
